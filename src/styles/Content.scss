@@ -1,0 +1,34 @@
+$primary-color: #fe8300;
+$text-color: #545253;
+$card-background: #ed170e;
+$sign-up: #fec301;
+$navigation-background: #f9f9f9;
+$searchbar-background: #302c2d;
+$content-link: #3f3c3d;
+
+.content {
+  &__item {
+    &__link {
+      width: 270px;
+      height: 50px;
+      background-color: $navigation-background;
+      border-bottom: 1px solid gray;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      > a {
+        color: $content-link;
+        font-weight: 500;
+      }
+      &:hover {
+        background-color: gray;
+        > a {
+          color: #f9f9f9;
+        }
+      }
+    }
+  }
+}

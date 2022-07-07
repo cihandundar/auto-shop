@@ -1,0 +1,70 @@
+$primary-color: #fe8300;
+$text-color: #545253;
+$sign-up: #fec301;
+$navigation-background: #f5f5f5;
+$searchbar-background: #302c2d;
+$footer-text: #92898c;
+
+.footer {
+  background-color: $searchbar-background;
+  padding: 2rem 0;
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__col {
+    &__title {
+      h3 {
+        color: $navigation-background;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  &__link {
+    display: flex;
+    margin-bottom: 10px;
+    > a {
+      color: $footer-text;
+      font-size: 13px;
+      font-weight: 700;
+      padding-left: 6px;
+      transition: 0.3s ease;
+      &:hover {
+        color: $navigation-background;
+      }
+    }
+  }
+  &__input {
+    &__title {
+      h3 {
+        color: $navigation-background;
+        margin-bottom: 15px;
+      }
+    }
+    form {
+      label {
+        color: $footer-text;
+        font-size: 13px;
+      }
+    }
+    &__col {
+      input {
+        margin-top: 5px;
+        padding: 11px 15px;
+        outline: none;
+        border: none;
+      }
+      button {
+        padding: 11px 20px;
+        background: $sign-up;
+        &:hover {
+          background: $primary-color;
+        }
+      }
+    }
+  }
+}

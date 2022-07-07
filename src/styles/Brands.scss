@@ -1,0 +1,23 @@
+$text-color: #545253;
+$primary-color: #fe8300;
+.brands {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    overflow: hidden;
+    border: 1px solid $text-color;
+    width: 225px;
+    cursor: pointer;
+
+    p {
+      font-weight: 700;
+      transition: 0.3s ease;
+    }
+    &:hover p {
+      color: $primary-color;
+    }
+  }
+}

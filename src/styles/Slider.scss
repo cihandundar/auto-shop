@@ -1,0 +1,20 @@
+@import "swiper/css/bundle";
+$primary-color: #fe8300;
+
+$searchbar-background: #302c2d;
+
+.slide__img {
+  width: 100%;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  padding: 2rem 1.2rem !important;
+  background-color: $searchbar-background;
+  color: $primary-color !important;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background: $primary-color !important;
+}

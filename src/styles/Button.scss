@@ -1,0 +1,23 @@
+$primary-color: #fe8300;
+$text-color: #545253;
+$card-background: #ed170e;
+$sign-up: #fec301;
+$navigation-background: #f5f5f5;
+$searchbar-background: #302c2d;
+$button-background: #383536;
+$button-color: #fff;
+
+button {
+  background-color: $button-background;
+  padding: 11px 15px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: $button-color;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s ease;
+  &:hover {
+    background-color: $primary-color;
+  }
+}
