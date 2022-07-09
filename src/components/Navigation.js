@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { RiArrowRightSLine } from "react-icons/ri";
 import ContentCard from "./ContentCard";
 
-const Content = () => {
+const Navigation = () => {
   return (
     <>
       <div className="content">
@@ -67,4 +67,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default Navigation;

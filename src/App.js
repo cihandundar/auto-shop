@@ -8,18 +8,16 @@ import About from "./pages/About";
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />}>
-            <Route path="/home" component={Home} exact />
-            <Route path="/about" component={About} exact />
-            <Route path="/blog" component={Blog} exact />
-            <Route path="/contact" component={Contact} exact />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}>
+          <Route path="/home" component={Home} exact />
+          <Route path="/about" component={About} exact />
+          <Route path="/blog" component={Blog} exact />
+          <Route path="/contact" component={Contact} exact />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
