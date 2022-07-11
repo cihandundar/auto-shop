@@ -16,7 +16,7 @@ const Navbar = () => {
               <ul className="header__nav__item">
                 <li className="header__nav__link">
                   <RiArrowRightSLine fill="#fe8300" />
-                  <Link to="home">Home</Link>
+                  <Link to="/">Home</Link>
                 </li>
 
                 <li className="header__nav__link">
@@ -72,7 +72,7 @@ const Navbar = () => {
         <div className="header__container">
           <div className="header__container__wrapper">
             <div className="header__container__logo">
-              <Link to="/home">
+              <Link to="/">
                 <img src={Logo} alt="" />
               </Link>
             </div>

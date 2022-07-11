@@ -1,10 +1,9 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import Navigation from "../components/Navigation";
 import Slider from "../components/Slider";
 import Card from "../components/Card";
 import Brands from "../components/Brands";
-import Footer from "../components/Footer";
+
 // card - image
 import halo from "../assets/images/halo.png";
 import brakes from "../assets/images/brakes.png";
@@ -29,7 +28,6 @@ import pioneer from "../assets/images/pioneer.png";
 const Home = () => {
   return (
     <React.Fragment>
-      <Navbar />
       <div className="main">
         <Navigation />
         <div className="main__content">
@@ -62,7 +60,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </React.Fragment>
   );
 };

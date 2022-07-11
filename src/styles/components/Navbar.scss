@@ -10,6 +10,9 @@
   &__wrapper {
     max-width: 1200px;
     margin: 0 auto;
+    @include breakpoint(lg) {
+      max-width: 1000px;
+    }
   }
   &__nav {
     display: flex;
