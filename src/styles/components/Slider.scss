@@ -1,7 +1,4 @@
 @import "swiper/css/bundle";
-$primary-color: #fe8300;
-
-$searchbar-background: #302c2d;
 
 .slide__img {
   width: 100%;
@@ -13,8 +10,6 @@ $searchbar-background: #302c2d;
   color: $primary-color !important;
 }
 
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets
-  .swiper-pagination-bullet {
+.swiper-pagination-bullet {
   background: $primary-color !important;
 }

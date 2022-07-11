@@ -1,0 +1,29 @@
+$breakpoints: (
+  "xxs": 22em,
+  "xs": 36em,
+  "sm": 48em,
+  "md": 62em,
+  "lg": 75em,
+  "xl": 87.5em,
+) !default;
+
+@mixin breakpoint($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media screen and (max-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+} // ornek kullanim: @include breakpoint(sm) {}
+// cikti ==> media screen and (max-width:768px) {...}
+
+// bg colors
+$navigation-background: #f5f5f5;
+$searchbar-background: #302c2d;
+$card-background: #ed170e;
+$sign-up: #fec301;
+
+//colors
+$text-color: #545253;
+$content-link: #3f3c3d;
+$footer-text: #92898c;
+$primary-color: #fe8300;
