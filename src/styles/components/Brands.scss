@@ -9,6 +9,9 @@
     border: 1px solid $text-color;
     width: 225px;
     cursor: pointer;
+    @include breakpoint(lg) {
+      width: 175px;
+    }
 
     p {
       font-weight: 700;
@@ -16,6 +19,17 @@
     }
     &:hover p {
       color: $primary-color;
+    }
+  }
+  &__img {
+    @include breakpoint(lg) {
+      position: relative;
+      z-index: -1;
+    }
+    img {
+      @include breakpoint(lg) {
+        width: 180px;
+      }
     }
   }
 }

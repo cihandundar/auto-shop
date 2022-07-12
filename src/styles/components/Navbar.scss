@@ -49,6 +49,9 @@
       justify-content: space-between;
       max-width: 1200px;
       margin: 0 auto;
+      @include breakpoint(lg) {
+        max-width: 1000px;
+      }
     }
 
     &__logo {
@@ -69,6 +72,9 @@
         border: none;
         padding-left: 0.5rem;
         font-size: 16px;
+        @include breakpoint(lg) {
+          width: 400px;
+        }
       }
       button {
         width: 120px;
@@ -95,6 +101,9 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
+      @include breakpoint(lg) {
+        max-width: 1000px;
+      }
     }
   }
   &__contact {
