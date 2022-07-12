@@ -1,9 +1,18 @@
 .content__card {
   padding-top: 1rem;
   max-width: 270px;
+  @include breakpoint(md) {
+    max-width: 100%;
+    padding-left: 20px;
+  }
+
   &__title {
     padding-bottom: 8px;
     position: relative;
+    @include breakpoint(md) {
+      display: flex;
+      justify-content: center;
+    }
     h3 {
       text-transform: uppercase;
       font-size: 1.5rem;
@@ -24,6 +33,9 @@
   margin-top: 15px;
   border: 1px solid $text-color;
   padding: 15px;
+  @include breakpoint(md) {
+    text-align: center;
+  }
   &__img img {
     width: 100%;
     height: 100%;
@@ -33,6 +45,10 @@
   &__text {
     display: flex;
     align-items: center;
+    @include breakpoint(md) {
+      display: flex;
+      justify-content: center;
+    }
     p {
       color: $text-color;
     }
@@ -59,5 +75,12 @@
   }
   > button {
     margin-top: 5px;
+  }
+}
+
+.content__wrapper {
+  @include breakpoint(md) {
+    display: flex;
+    justify-content: center;
   }
 }

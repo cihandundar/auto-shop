@@ -13,6 +13,9 @@
     @include breakpoint(lg) {
       max-width: 1000px;
     }
+    @include breakpoint(md) {
+      max-width: 900px;
+    }
   }
   &__nav {
     display: flex;
@@ -51,6 +54,9 @@
       margin: 0 auto;
       @include breakpoint(lg) {
         max-width: 1000px;
+      }
+      @include breakpoint(md) {
+        max-width: 900px;
       }
     }
 
@@ -103,6 +109,9 @@
       justify-content: flex-end;
       @include breakpoint(lg) {
         max-width: 1000px;
+      }
+      @include breakpoint(md) {
+        max-width: 900px;
       }
     }
   }

@@ -1,4 +1,10 @@
 .content {
+  &__container {
+    @include breakpoint(md) {
+      display: flex;
+      align-items: center;
+    }
+  }
   &__item {
     &__link {
       width: 270px;
@@ -11,6 +17,9 @@
       padding: 0 10px;
       cursor: pointer;
       transition: 0.3s ease;
+      @include breakpoint(md) {
+        width: 325px;
+      }
       > a {
         color: $content-link;
         font-weight: 500;

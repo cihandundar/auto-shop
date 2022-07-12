@@ -7,6 +7,9 @@
     @include breakpoint(lg) {
       max-width: 1000px;
     }
+    @include breakpoint(md) {
+      max-width: 900px;
+    }
   }
   &__wrapper {
     display: flex;
