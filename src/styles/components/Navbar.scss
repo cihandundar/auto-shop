@@ -14,7 +14,7 @@
       max-width: 1000px;
     }
     @include breakpoint(md) {
-      max-width: 900px;
+      max-width: 800px;
     }
   }
   &__nav {
@@ -56,7 +56,7 @@
         max-width: 1000px;
       }
       @include breakpoint(md) {
-        max-width: 900px;
+        max-width: 800px;
       }
     }
 
@@ -80,6 +80,9 @@
         font-size: 16px;
         @include breakpoint(lg) {
           width: 400px;
+        }
+        @include breakpoint(md) {
+          width: 100%;
         }
       }
       button {
@@ -111,7 +114,7 @@
         max-width: 1000px;
       }
       @include breakpoint(md) {
-        max-width: 900px;
+        max-width: 800px;
       }
     }
   }

@@ -8,6 +8,9 @@
   padding: 2rem 1.2rem !important;
   background-color: $searchbar-background;
   color: $primary-color !important;
+  @include breakpoint(md) {
+    display: none !important;
+  }
 }
 
 .swiper-pagination-bullet {

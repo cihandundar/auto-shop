@@ -9,9 +9,6 @@
     width: 100%;
     margin-top: 15px;
   }
-  @include breakpoint(md) {
-    width: 50%;
-  }
 
   &:nth-child(even) {
     margin-left: 10px;
@@ -26,13 +23,6 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-    }
-    @include breakpoint(md) {
-      display: flex;
-      text-align: center;
-      flex-direction: column-reverse;
-      justify-content: center;
-      padding: 0 0 16px 0;
     }
   }
   &__title {
