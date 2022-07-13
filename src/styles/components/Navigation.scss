@@ -1,4 +1,8 @@
 .content {
+  @include breakpoint(sm) {
+    max-width: 100%;
+    padding: 0 1.5rem;
+  }
   &__item {
     &__link {
       width: 270px;
@@ -11,7 +15,10 @@
       padding: 0 10px;
       cursor: pointer;
       transition: 0.3s ease;
-
+      @include breakpoint(sm) {
+        width: 100%;
+        height: 60px;
+      }
       > a {
         color: $content-link;
         font-weight: 500;

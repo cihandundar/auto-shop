@@ -16,6 +16,9 @@
     @include breakpoint(md) {
       max-width: 800px;
     }
+    @include breakpoint(sm) {
+      padding: 0 1.5rem;
+    }
   }
   &__nav {
     display: flex;
@@ -58,6 +61,9 @@
       @include breakpoint(md) {
         max-width: 800px;
       }
+      @include breakpoint(sm) {
+        padding: 0 1.5rem;
+      }
     }
 
     &__logo {
@@ -66,6 +72,9 @@
       img {
         position: absolute;
         bottom: 0;
+        @include breakpoint(sm) {
+          height: 120px;
+        }
       }
     }
     &__input {
@@ -115,6 +124,9 @@
       }
       @include breakpoint(md) {
         max-width: 800px;
+      }
+      @include breakpoint(sm) {
+        padding: 0 1.5rem;
       }
     }
   }

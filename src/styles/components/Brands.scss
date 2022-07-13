@@ -15,7 +15,9 @@
     @include breakpoint(md) {
       width: 251px;
     }
-
+    @include breakpoint(sm) {
+      width: 100%;
+    }
     p {
       font-weight: 700;
       transition: 0.3s ease;
