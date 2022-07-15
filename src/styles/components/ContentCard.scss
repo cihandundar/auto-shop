@@ -1,5 +1,5 @@
 .content__card {
-  padding-top: 1rem;
+  padding-block: 1rem;
   max-width: 270px;
   @include breakpoint(sm) {
     max-width: 100%;
