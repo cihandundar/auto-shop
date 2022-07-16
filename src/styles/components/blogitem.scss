@@ -1,4 +1,6 @@
 .blog {
+  border-bottom: 1px solid $text-color;
+  padding-block: 25px;
   &__container {
     padding: 10px;
   }
