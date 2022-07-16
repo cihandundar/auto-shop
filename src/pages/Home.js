@@ -27,40 +27,34 @@ import pioneer from "../assets/images/pioneer.png";
 
 const Home = () => {
   return (
-    <React.Fragment>
-      <div className="main">
-        <Navigation />
-        <div className="main__content">
-          <Slider />
-          <div className="card__wrapper">
-            <Card title_1="HALO" title_2="HEADLIGHTS" card_img={halo} />
-            <Card title_1="HAND" title_2="BRAKES" card_img={brakes} />
-            <Card
-              title_1="SUSPENSION"
-              title_2="SYSTEMS"
-              card_img={suspension}
-            />
-            <Card title_1="CUSTOM" title_2="WHEELS" card_img={custom} />
-            <Card title_1="EXHAUST" title_2="SYSTEMS" card_img={exhaust} />
-            <Card title_1="AIR" title_2="INTAKES" card_img={air} />
-            <Card title_1="CAR" title_2="SPOILERS" card_img={spoiler} />
-            <Card title_1="BODY" title_2="KITS" card_img={body} />
-            <Card title_1="GRILLE" title_2="GUARDS" card_img={grille} />
-            <Card title_1="AUDIO" title_2="SYSTEMS" card_img={audio} />
-          </div>
-          <div className="brand">
-            <Brands brand_img={sparco} brand_text="Sparco" />
-            <Brands brand_img={kenwood} brand_text="Kenwood" />
-            <Brands brand_img={nifty} brand_text="Nifty" />
-            <Brands brand_img={goodyear} brand_text="Good Year" />
-            <Brands brand_img={momo} brand_text="Momo Italy" />
-            <Brands brand_img={injen} brand_text="Injen Technology" />
-            <Brands brand_img={alpin} brand_text="Alpine" />
-            <Brands brand_img={pioneer} brand_text="Pioneer" />
-          </div>
+    <div className="main">
+      <Navigation />
+      <div className="main__content">
+        <Slider />
+        <div className="card__wrapper">
+          <Card title_1="HALO" title_2="HEADLIGHTS" card_img={halo} />
+          <Card title_1="HAND" title_2="BRAKES" card_img={brakes} />
+          <Card title_1="SUSPENSION" title_2="SYSTEMS" card_img={suspension} />
+          <Card title_1="CUSTOM" title_2="WHEELS" card_img={custom} />
+          <Card title_1="EXHAUST" title_2="SYSTEMS" card_img={exhaust} />
+          <Card title_1="AIR" title_2="INTAKES" card_img={air} />
+          <Card title_1="CAR" title_2="SPOILERS" card_img={spoiler} />
+          <Card title_1="BODY" title_2="KITS" card_img={body} />
+          <Card title_1="GRILLE" title_2="GUARDS" card_img={grille} />
+          <Card title_1="AUDIO" title_2="SYSTEMS" card_img={audio} />
+        </div>
+        <div className="brand">
+          <Brands brand_img={sparco} brand_text="Sparco" />
+          <Brands brand_img={kenwood} brand_text="Kenwood" />
+          <Brands brand_img={nifty} brand_text="Nifty" />
+          <Brands brand_img={goodyear} brand_text="Good Year" />
+          <Brands brand_img={momo} brand_text="Momo Italy" />
+          <Brands brand_img={injen} brand_text="Injen Technology" />
+          <Brands brand_img={alpin} brand_text="Alpine" />
+          <Brands brand_img={pioneer} brand_text="Pioneer" />
         </div>
       </div>
-    </React.Fragment>
+    </div>
   );
 };
 
