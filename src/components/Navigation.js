@@ -59,7 +59,7 @@ const Navigation = () => {
             </li>
           </ul>
           <div className="content__bestseller">
-            <ContentCard content_title="best seller" />
+            <ContentCard />
           </div>
         </div>
       </div>
