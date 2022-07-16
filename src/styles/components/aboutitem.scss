@@ -1,0 +1,46 @@
+.about {
+  margin-top: 25px;
+  &__container {
+    border-bottom: 4px solid $text-color;
+    box-shadow: 0 0 5px 0 rgba($color: #000000, $alpha: 0.2);
+  }
+  &__card {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    &__image {
+      img {
+        width: 250px;
+        height: 100%;
+        @include breakpoint(md) {
+          width: 150px;
+        }
+      }
+    }
+    &__wrapper {
+      padding-inline: 3rem;
+      @include breakpoint(md) {
+        padding-inline: 1rem;
+      }
+    }
+    &__title {
+      h3 {
+        font-size: 1.5rem;
+        color: $primary-color;
+        @include breakpoint(md) {
+          font-size: 1rem;
+        }
+      }
+    }
+    &__text {
+      p {
+        margin-block: 15px;
+        font-weight: 300;
+        font-size: 15px;
+        @include breakpoint(md) {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

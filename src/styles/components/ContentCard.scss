@@ -21,7 +21,8 @@
       position: absolute;
       bottom: 0;
       width: 270px;
-      height: 5px;
+      height: 4px;
+      border-radius: 10px;
       background-color: $searchbar-background;
       @include breakpoint(sm) {
         width: 100%;
