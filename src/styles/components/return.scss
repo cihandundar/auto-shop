@@ -1,0 +1,26 @@
+.return {
+  background-color: $navigation-background;
+  padding: 10px;
+  &__container {
+    display: flex;
+    span {
+      margin-inline: 15px;
+      color: $text-color;
+    }
+
+    p {
+      color: $text-color;
+      font-weight: 500;
+    }
+  }
+  &__link {
+    > a {
+      color: $text-color;
+      font-weight: 500;
+      transition: 0.3s ease;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}
