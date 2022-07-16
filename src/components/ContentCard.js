@@ -2,12 +2,12 @@ import React from "react";
 import Bestseller1 from "../assets/images/bestseller1.jpeg";
 import Bestseller2 from "../assets/images/bestseller2.jpeg";
 import Button from "./Button";
-const ContentCard = (props) => {
+const ContentCard = () => {
   return (
     <>
       <div className="content__card">
         <div className="content__card__title">
-          <h3>{props.content_title}</h3>
+          <h3>best sellers</h3>
         </div>
         <div className="content__wrapper">
           <div className="content__col">
