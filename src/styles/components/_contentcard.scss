@@ -15,6 +15,9 @@
       @include breakpoint(sm) {
         font-size: 2rem;
       }
+      @include breakpoint(xs) {
+        font-size: 1.5rem;
+      }
     }
     &::before {
       content: "";
@@ -42,6 +45,13 @@
       margin-bottom: 15px;
     }
   }
+  @include breakpoint(xs) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
   &__img img {
     width: 100%;
     height: 100%;
@@ -55,11 +65,18 @@
     &__text {
       display: flex;
       align-items: center;
+      @include breakpoint(xs) {
+        display: flex;
+        justify-content: center;
+      }
 
       p {
         color: $text-color;
         @include breakpoint(sm) {
           font-size: 1.3rem;
+        }
+        @include breakpoint(xs) {
+          font-size: 1rem;
         }
       }
 
@@ -71,6 +88,9 @@
         @include breakpoint(sm) {
           font-size: 1.3rem;
         }
+        @include breakpoint(xs) {
+          font-size: 1rem;
+        }
       }
     }
     > span {
@@ -80,6 +100,9 @@
       cursor: pointer;
       @include breakpoint(sm) {
         font-size: 1.3rem;
+      }
+      @include breakpoint(xs) {
+        font-size: 1rem;
       }
       &:hover {
         color: $searchbar-background;
@@ -92,11 +115,17 @@
       @include breakpoint(sm) {
         font-size: 1.3rem;
       }
+      @include breakpoint(xs) {
+        font-size: 1rem;
+      }
     }
     > button {
       margin-top: 5px;
       @include breakpoint(sm) {
         font-size: 1.2rem;
+      }
+      @include breakpoint(xs) {
+        font-size: 1rem;
       }
     }
   }
