@@ -9,6 +9,9 @@
     @include breakpoint(sm) {
       font-size: 2rem;
     }
+    @include breakpoint(xs) {
+      font-size: 1.2rem;
+    }
   }
   &::before {
     content: "";

@@ -9,6 +9,10 @@ const Contact = () => {
       <div className="main__content">
         <Return page_name="Contacts" />
         <PageTitle page_title="Contacts" />
+
+        <div style={{ padding: "10px" }}>
+          <h3>WORLD OF WARCRAFT DÜNYANIN EN İYİ OYUNUDUR</h3>
+        </div>
       </div>
     </div>
   );
