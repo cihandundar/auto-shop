@@ -22,28 +22,28 @@ const Navbar = () => {
           <div className="header__wrapper">
             <nav ref={navRef} className="header__nav">
               <ul className="header__nav__item">
-                <li className="header__nav__link">
+                <li className="header__nav__link" onClick={showNavbar}>
                   <span>
                     <RiArrowRightSLine fill="#fe8300" />
                   </span>
                   <Link to="/">Home</Link>
                 </li>
 
-                <li className="header__nav__link">
+                <li className="header__nav__link" onClick={showNavbar}>
                   <span>
                     <RiArrowRightSLine fill="#fe8300" />
                   </span>
                   <Link to="about">About Us</Link>
                 </li>
 
-                <li className="header__nav__link">
+                <li className="header__nav__link" onClick={showNavbar}>
                   <span>
                     <RiArrowRightSLine fill="#fe8300" />
                   </span>
                   <Link to="blog">Blog</Link>
                 </li>
 
-                <li className="header__nav__link">
+                <li className="header__nav__link" onClick={showNavbar}>
                   <span>
                     <RiArrowRightSLine fill="#fe8300" />
                   </span>
@@ -51,13 +51,13 @@ const Navbar = () => {
                 </li>
               </ul>
               <ul className="header__nav__item">
-                <li className="header__nav__link">
+                <li className="header__nav__link" onClick={showNavbar}>
                   <span>
                     <RiArrowRightSLine fill="#fe8300" />
                   </span>
                   <Link to="/">Log in</Link>
                 </li>
-                <li className="header__nav__link">
+                <li className="header__nav__link" onClick={showNavbar}>
                   <span>
                     <RiArrowRightSLine fill="#fe8300" />
                   </span>
